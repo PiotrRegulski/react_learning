@@ -1,12 +1,12 @@
 import React from "react";
-
+import "./NewExpense.css";
 
 export default function NewExpenses(){
     return(
         
-        <form>
-           <input></input> 
-        </form>
+   <div className="new-expense">
+    
+   </div>
        
     )
 }
