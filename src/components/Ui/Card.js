@@ -7,3 +7,5 @@ import './Card.css';
 }
 
 // export default Card;
+
+// tworzenie stylu dla diva karty

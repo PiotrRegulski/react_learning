@@ -1,3 +1,4 @@
+import React from 'react';
 import './expenses.css';
 import ExpItem from './ExpenseItem';
 const expenses = [

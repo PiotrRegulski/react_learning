@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './ExpenseData.css'
 // funkcja strzałkowa można używać
 const ExpenseDate=(props)=> {
