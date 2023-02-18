@@ -6,10 +6,10 @@ import Card from "../Ui/Card";
 
 const ExpItem=(props)=> {
   const [zmiana, setZmiana] = useState(props.title);
-  console.log("cos tam dziala")
+  
   const clickHandler = () => {
-    setZmiana(ExpenseDate);
-    console.log(zmiana);
+    setZmiana(props.title);
+    console.log(props.date);
   };
 
   return (

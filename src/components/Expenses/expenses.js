@@ -2,15 +2,16 @@ import React from 'react';
 import './expenses.css';
 import ExpItem from './ExpenseItem';
 const expenses = [
-    { title: "Car Insurance", amount: 294.34, date: new Date(2023, 2, 7) },
-    { title: "Electricity Bill", amount: 280.99, date: new Date(2023, 1, 1) },
-    { title: "City ​​Card", amount: 110.99, date: new Date(2022, 9, 3) },
+    { id:'e1', title: "Car Insurance", amount: 294.34, date: new Date(2023, 2, 7) },
+    { id:'e2', title: "Electricity Bill", amount: 280.99, date: new Date(2023, 1, 1) },
+    { id:'e3', title: "City ​​Card", amount: 110.99, date: new Date(2022, 9, 3) },
     {
-      title: "Bill For The Internet",
+      id:'e4', title: "Bill For The Internet",
       amount: 120.99,
       date: new Date(Date.UTC(2012, 11, 20, 3, 0, 0)),
     },
     {
+      id:'e5',
       title: "Phone Bill",
       amount: 150.01,
       date: new Date(Date.UTC(2022,10,12)),
